@@ -1,0 +1,96 @@
+{
+  "name": "bsky-electron",
+  "version": "v0.1.0",
+  "description": "Bluesky Electron Client",
+  "keywords": ["Bluesky"],
+  "homepage": "https://github.com/CaffeeLake/bsky-electron/",
+  "bugs": {
+    "url" : "https://github.com/CaffeeLake/bsky-electron/issues/"
+  },
+  "license": "MPL-2.0",
+  "author": "CaffeeLake <PascalCoffeeLake@gmail.com> (https://github.com/CaffeeLake/)",
+  "repository": "github:CaffeeLake/bsky-electron",
+  "main": "main/index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "clean": "rimraf dist main",
+    "dev": "pnpm build && electron .",
+    "dist": "pnpm build && electron-builder",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\"",
+    "format:check": "prettier --check \"./**/*.{js,jsx,ts,tsx}\"",
+    "pack": "pnpm build && electron-builder --dir",
+    "release": "electron-builder",
+    "type-check": "tsc -p ./src/tsconfig.json"
+  },
+  "devDependencies": {
+    "electron": "^24",
+    "electron-builder": "^23.6.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  },
+  "build": {
+    "appId": "com.caffeelake.bsky-electron",
+    "artifactName": "${productName}_v${version}_${os}_${arch}.${ext}",
+    "asar": true,
+    "files": [
+      "main"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "releaseType": "release"
+      }
+    ],
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "deb",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "rpm",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "portable"
+        }
+      ]
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ]
+    }
+  }
+}

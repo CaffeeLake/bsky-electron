@@ -1,0 +1,12 @@
+{
+  "overrides": [{
+    "files": ["*.ts", "*.tsx"]
+  }],
+  "printWidth": 160,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": true,
+  "useTabs": false,
+  "endOfLine": "lf"
+}
