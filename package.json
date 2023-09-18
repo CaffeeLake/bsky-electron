@@ -23,7 +23,7 @@
     "type-check": "tsc -p ./src/tsconfig.json"
   },
   "devDependencies": {
-    "electron": "^25.0.0",
+    "electron": "^26.0.0",
     "electron-builder": "^23.6.0",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.0",
