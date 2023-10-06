@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   electron:
-    specifier: ^26.0.0
-    version: 26.2.2
+    specifier: ^26.2.4
+    version: 26.2.4
   electron-builder:
     specifier: ^24.0.0
     version: 24.6.4
@@ -163,7 +163,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.2
       '@types/keyv': 3.1.4
-      '@types/node': 18.17.19
+      '@types/node': 20.6.5
       '@types/responselike': 1.0.0
     dev: true
 
@@ -186,7 +186,7 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.17.19
+      '@types/node': 20.6.5
     dev: true
 
   /@types/ms@0.7.31:
@@ -213,7 +213,7 @@ packages:
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.17.19
+      '@types/node': 20.6.5
     dev: true
 
   /@types/verror@1.10.6:
@@ -226,7 +226,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.17.19
+      '@types/node': 20.6.5
     dev: true
     optional: true
 
@@ -732,8 +732,8 @@ packages:
       - supports-color
     dev: true
 
-  /electron@26.2.2:
-    resolution: {integrity: sha512-Ihb3Zt4XYnHF52DYSq17ySkgFqJV4OT0VnfhUYZASAql7Vembz3VsAq7mB3OALBHXltAW34P8BxTIwTqZaMS3g==}
+  /electron@26.2.4:
+    resolution: {integrity: sha512-weMUSMyDho5E0DPQ3breba3D96IxwNvtYHjMd/4/wNN3BdI5s3+0orNnPVGJFcLhSvKoxuKUqdVonUocBPwlQA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
