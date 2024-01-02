@@ -18,7 +18,7 @@
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash",
-      "platformAutomerge": false
+      "platformAutomerge": true
     }
   ],
   "lockFileMaintenance": {
@@ -26,6 +26,6 @@
     "automerge": true,
     "automergeType": "pr",
     "automergeStrategy": "squash",
-    "platformAutomerge": false
+    "platformAutomerge": true
   }
 }
