@@ -28,7 +28,7 @@
     "electron-store": "^8.1.0"
   },
   "devDependencies": {
-    "electron": "^29.0.0",
+    "electron": "^30.0.0",
     "electron-builder": "^24.9.1",
     "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
