@@ -1,7 +1,12 @@
 {
-  "overrides": [{
-    "files": ["*.ts", "*.tsx"]
-  }],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ]
+    }
+  ],
   "printWidth": 160,
   "tabWidth": 2,
   "trailingComma": "all",

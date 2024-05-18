@@ -1,6 +1,6 @@
 {
   "name": "bsky-electron",
-  "version": "v0.2.1",
+  "version": "v0.3.0",
   "description": "Bluesky Electron Client",
   "keywords": [
     "Bluesky"
@@ -13,6 +13,7 @@
   "author": "CaffeeLake <PascalCoffeeLake@gmail.com> (https://github.com/CaffeeLake/)",
   "repository": "github:CaffeeLake/bsky-electron",
   "main": "main/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc -p src",
     "clean": "rimraf dist main",
@@ -25,14 +26,18 @@
     "type-check": "tsc -p ./src/tsconfig.json"
   },
   "dependencies": {
-    "electron-store": "^8.1.0"
+    "electron-store": "^9.0.0"
   },
   "devDependencies": {
-    "electron": "^30.0.0",
-    "electron-builder": "^24.9.1",
-    "prettier": "^3.1.1",
-    "rimraf": "^5.0.5",
-    "typescript": "^5.3.3"
+    "electron": "^30.0.6",
+    "electron-builder": "^24.13.3",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
   },
   "build": {
     "appId": "com.caffeelake.bsky-electron",
