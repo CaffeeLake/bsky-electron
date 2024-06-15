@@ -26,7 +26,7 @@
     "type-check": "tsc -p ./src/tsconfig.json"
   },
   "dependencies": {
-    "electron-store": "^9.0.0"
+    "electron-store": "^10.0.0"
   },
   "devDependencies": {
     "electron": "^31.0.0",
