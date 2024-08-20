@@ -29,7 +29,7 @@
     "electron-store": "^10.0.0"
   },
   "devDependencies": {
-    "electron": "^31.0.0",
+    "electron": "^32.0.0",
     "electron-builder": "^24.13.3",
     "prettier": "^3.2.5",
     "rimraf": "^6.0.0",
