@@ -475,8 +475,8 @@ packages:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
     engines: {node: '>=18'}
 
-  dotenv-expand@11.0.6:
-    resolution: {integrity: sha512-8NHi73otpWsZGBSZwwknTXS5pqMOrk9+Ssrna8xCaxkzEpU9OTf9R5ArQGVw03//Zmk9MOwLPng9WwndvpAJ5g==}
+  dotenv-expand@11.0.7:
+    resolution: {integrity: sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==}
     engines: {node: '>=12'}
 
   dotenv@16.4.5:
@@ -1312,8 +1312,8 @@ packages:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
     engines: {node: '>=10'}
 
-  type-fest@4.26.1:
-    resolution: {integrity: sha512-yOGpmOAL7CkKe/91I5O3gPICmJNLJ1G4zFYVAsRHg7M64biSnPtRj0WNQt++bRkjYOqjWXrhnUw1utzmVErAdg==}
+  type-fest@4.27.0:
+    resolution: {integrity: sha512-3IMSWgP7C5KSQqmo1wjhKrwsvXAtF33jO3QY+Uy++ia7hqvgSK6iXbbg5PbDBc1P2ZbNEDgejOrN4YooXvhwCw==}
     engines: {node: '>=16'}
 
   typescript@5.6.3:
@@ -1663,7 +1663,7 @@ snapshots:
       debug: 4.3.7
       dmg-builder: 25.1.8(electron-builder-squirrel-windows@25.1.8)
       dotenv: 16.4.5
-      dotenv-expand: 11.0.6
+      dotenv-expand: 11.0.7
       ejs: 3.1.10
       electron-builder-squirrel-windows: 25.1.8(dmg-builder@25.1.8)
       electron-publish: 25.1.7
@@ -2028,9 +2028,9 @@ snapshots:
 
   dot-prop@9.0.0:
     dependencies:
-      type-fest: 4.26.1
+      type-fest: 4.27.0
 
-  dotenv-expand@11.0.6:
+  dotenv-expand@11.0.7:
     dependencies:
       dotenv: 16.4.5
 
@@ -2085,7 +2085,7 @@ snapshots:
   electron-store@10.0.0:
     dependencies:
       conf: 13.0.1
-      type-fest: 4.26.1
+      type-fest: 4.27.0
 
   electron@33.2.0:
     dependencies:
@@ -2949,7 +2949,7 @@ snapshots:
   type-fest@0.13.1:
     optional: true
 
-  type-fest@4.26.1: {}
+  type-fest@4.27.0: {}
 
   typescript@5.6.3: {}
 
