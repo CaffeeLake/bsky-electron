@@ -1321,8 +1321,8 @@ packages:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
     engines: {node: '>=10'}
 
-  type-fest@4.29.0:
-    resolution: {integrity: sha512-RPYt6dKyemXJe7I6oNstcH24myUGSReicxcHTvCLgzm4e0n8y05dGvcGB15/SoPRBmhlMthWQ9pvKyL81ko8nQ==}
+  type-fest@4.29.1:
+    resolution: {integrity: sha512-Y1zUveI92UYM/vo1EFlQSsNf74+hfKH+7saZJslF0Fw92FRaiTAnHPIvo9d7SLxXt/gAYqA4RXyDTioMQCCp0A==}
     engines: {node: '>=16'}
 
   typescript@5.7.2:
@@ -2049,7 +2049,7 @@ snapshots:
 
   dot-prop@9.0.0:
     dependencies:
-      type-fest: 4.29.0
+      type-fest: 4.29.1
 
   dotenv-expand@11.0.7:
     dependencies:
@@ -2106,7 +2106,7 @@ snapshots:
   electron-store@10.0.0:
     dependencies:
       conf: 13.0.1
-      type-fest: 4.29.0
+      type-fest: 4.29.1
 
   electron@33.2.1:
     dependencies:
@@ -2982,7 +2982,7 @@ snapshots:
   type-fest@0.13.1:
     optional: true
 
-  type-fest@4.29.0: {}
+  type-fest@4.29.1: {}
 
   typescript@5.7.2: {}
 
