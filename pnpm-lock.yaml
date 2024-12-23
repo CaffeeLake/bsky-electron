@@ -1294,8 +1294,8 @@ packages:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
     engines: {node: '>=10'}
 
-  type-fest@4.30.1:
-    resolution: {integrity: sha512-ojFL7eDMX2NF0xMbDwPZJ8sb7ckqtlAi1GsmgsFXvErT9kFTk1r0DuQKvrCh73M6D4nngeHJmvogF9OluXs7Hw==}
+  type-fest@4.30.2:
+    resolution: {integrity: sha512-UJShLPYi1aWqCdq9HycOL/gwsuqda1OISdBO3t8RlXQC4QvtuIz4b5FCfe2dQIWEpmlRExKmcTBfP1r9bhY7ig==}
     engines: {node: '>=16'}
 
   typescript@5.7.2:
@@ -1526,7 +1526,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -1541,7 +1541,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/ms@0.7.34': {}
 
@@ -1561,7 +1561,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.17.10
+      '@types/node': 22.10.2
 
   '@types/verror@1.10.10':
     optional: true
@@ -2009,7 +2009,7 @@ snapshots:
 
   dot-prop@9.0.0:
     dependencies:
-      type-fest: 4.30.1
+      type-fest: 4.30.2
 
   dotenv-expand@11.0.7:
     dependencies:
@@ -2066,7 +2066,7 @@ snapshots:
   electron-store@10.0.0:
     dependencies:
       conf: 13.1.0
-      type-fest: 4.30.1
+      type-fest: 4.30.2
 
   electron@33.2.1:
     dependencies:
@@ -2903,7 +2903,7 @@ snapshots:
   type-fest@0.13.1:
     optional: true
 
-  type-fest@4.30.1: {}
+  type-fest@4.30.2: {}
 
   typescript@5.7.2: {}
 
