@@ -5,6 +5,7 @@ import Store from 'electron-store';
 if (process.platform === 'linux') {
   app.commandLine.appendSwitch('enable-features', 'WaylandWindowDecorations');
   app.commandLine.appendSwitch('ozone-platform-hint', 'auto');
+  app.commandLine.appendSwitch('enable-wayland-ime');
 }
 
 const store = new Store({
