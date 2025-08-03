@@ -1,9 +1,11 @@
 // Packages
 import { app, BrowserWindow } from 'electron';
 import Store from 'electron-store';
-import path from 'path';
 
-path.join(app.getPath('userData'), 'config.json');
+if (process.platform === 'linux') {
+  app.commandLine.appendSwitch('enable-features', 'WaylandWindowDecorations');
+  app.commandLine.appendSwitch('ozone-platform-hint', 'auto');
+}
 
 const store = new Store({
   configFileMode: 0o755,

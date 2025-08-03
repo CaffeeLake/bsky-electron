@@ -1,6 +1,6 @@
 {
   "name": "bsky-electron",
-  "version": "v0.3.1",
+  "version": "v0.4.0",
   "description": "Bluesky Electron Client",
   "keywords": [
     "Bluesky"
@@ -26,14 +26,14 @@
     "type-check": "tsc -p ./src/tsconfig.json"
   },
   "dependencies": {
-    "electron-store": "^10.0.0"
+    "electron-store": "^10.1.0"
   },
   "devDependencies": {
-    "electron": "^37.0.0",
-    "electron-builder": "^26.0.0",
-    "prettier": "^3.2.5",
-    "rimraf": "^6.0.0",
-    "typescript": "^5.4.5"
+    "electron": "^37.2.5",
+    "electron-builder": "^26.0.12",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
   },
   "engines": {
     "node": ">=22",
