@@ -14,7 +14,7 @@ importers:
     devDependencies:
       electron:
         specifier: ^37.2.5
-        version: 37.3.0
+        version: 37.3.1
       electron-builder:
         specifier: ^26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@26.0.12)
@@ -501,8 +501,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@37.3.0:
-    resolution: {integrity: sha512-cPOPUD26DwCh+PZ9q+gMyVBvdBN75SnekI6u5zcOeoLVIXQpzrCm1ewz9BcrkWkVW7oOtfQAEo1G1SffvXrSSw==}
+  electron@37.3.1:
+    resolution: {integrity: sha512-7DhktRLqhe6OJh/Bo75bTI0puUYEmIwSzMinocgO63mx3MVjtIn2tYMzLmAleNIlud2htkjpsMG2zT4PiTCloA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -1297,8 +1297,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  uint8array-extras@1.4.1:
-    resolution: {integrity: sha512-+NWHrac9dvilNgme+gP4YrBSumsaMZP0fNBtXXFIf33RLLKEcBUKaQZ7ULUbS0sBfcjxIZ4V96OTRkCbM7hxpw==}
+  uint8array-extras@1.5.0:
+    resolution: {integrity: sha512-rvKSBiC5zqCCiDZ9kAOszZcDvdAHwwIKJG33Ykj43OKcWsnmcBRL09YTU4nOeHZ8Y2a7l1MgTd08SBe9A8Qj6A==}
     engines: {node: '>=18'}
 
   undici-types@6.21.0:
@@ -1886,7 +1886,7 @@ snapshots:
       env-paths: 3.0.0
       json-schema-typed: 8.0.1
       semver: 7.7.2
-      uint8array-extras: 1.4.1
+      uint8array-extras: 1.5.0
 
   config-file-ts@0.2.8-rc1:
     dependencies:
@@ -2060,7 +2060,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@37.3.0:
+  electron@37.3.1:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 22.17.2
@@ -2881,7 +2881,7 @@ snapshots:
 
   typescript@5.9.2: {}
 
-  uint8array-extras@1.4.1: {}
+  uint8array-extras@1.5.0: {}
 
   undici-types@6.21.0: {}
 
