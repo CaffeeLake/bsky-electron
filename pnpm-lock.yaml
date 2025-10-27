@@ -14,7 +14,7 @@ importers:
     devDependencies:
       electron:
         specifier: ^38.0.0
-        version: 38.3.0
+        version: 38.4.0
       electron-builder:
         specifier: ^26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@26.0.12)
@@ -150,11 +150,11 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.18.11':
-    resolution: {integrity: sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==}
+  '@types/node@22.18.12':
+    resolution: {integrity: sha512-BICHQ67iqxQGFSzfCFTT7MRQ5XcBjG5aeKh5Ok38UBbPe5fxTyE+aHFxwVrGyr8GNlqFMLKD1D3P2K/1ks8tog==}
 
-  '@types/node@24.8.1':
-    resolution: {integrity: sha512-alv65KGRadQVfVcG69MuB4IzdYVpRwMG/mq8KWOaoOdyY617P5ivaDiMCGOFDWD2sAn5Q0mR3mRtUOgm99hL9Q==}
+  '@types/node@24.9.1':
+    resolution: {integrity: sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==}
 
   '@types/plist@3.0.5':
     resolution: {integrity: sha512-E6OCaRmAe4WDmWNsL/9RMqdkkzDCY1etutkflWk4c+AcjDU07Pcz1fQwTX0TQz+Pxqn9i4L1TU3UFpjnrcDgxA==}
@@ -261,8 +261,8 @@ packages:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
 
-  atomically@2.0.3:
-    resolution: {integrity: sha512-kU6FmrwZ3Lx7/7y3hPS5QnbJfaohcIul5fGqf7ok+4KklIEk9tJ0C2IQPdacSbVUWv6zVHXEBWoWd6NrVMT7Cw==}
+  atomically@2.1.0:
+    resolution: {integrity: sha512-+gDffFXRW6sl/HCwbta7zK4uNqbPjv4YJEAdz7Vu+FLQHe77eZ4bvbJGi4hE0QPeJlMYMA3piXEr1UL3dAwx7Q==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -501,8 +501,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@38.3.0:
-    resolution: {integrity: sha512-Wij4AzX4SAV0X/ktq+NrWrp5piTCSS8F6YWh1KAcG+QRtNzyns9XLKERP68nFHIwfprhxF2YCN2uj7nx9DaeJw==}
+  electron@38.4.0:
+    resolution: {integrity: sha512-9CsXKbGf2qpofVe2pQYSgom2E//zLDJO2rGLLbxgy9tkdTOs7000Gte+d/PUtzLjI/DS95jDK0ojYAeqjLvpYg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -1249,8 +1249,11 @@ packages:
     resolution: {integrity: sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==}
     engines: {node: '>=12'}
 
-  stubborn-fs@1.2.5:
-    resolution: {integrity: sha512-H2N9c26eXjzL/S/K+i/RHHcFanE74dptvvjM8iwzwbVcWY/zjBbgRqF3K0DY4+OD+uTTASTBvDoxPDaPN02D7g==}
+  stubborn-fs@2.0.0:
+    resolution: {integrity: sha512-Y0AvSwDw8y+nlSNFXMm2g6L51rBGdAQT20J3YSOqxC53Lo3bjWRtr2BKcfYoAf352WYpsZSTURrA0tqhfgudPA==}
+
+  stubborn-utils@1.0.1:
+    resolution: {integrity: sha512-bwtct4FpoH1eYdSMFc84fxnYynWwsy2u0joj94K+6caiPnjZIpwTLHT2u7CFAS0GumaBZVB5Y2GkJ46mJS76qg==}
 
   sumchecker@3.0.1:
     resolution: {integrity: sha512-MvjXzkz/BOfyVDkG0oFOtBxHX2u3gKbMHIF/dXblZsgD3BWOFLmHovIpZY7BykJdAjcqRCBi1WYBNdEC9yI7vg==}
@@ -1308,8 +1311,8 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
-  undici-types@7.14.0:
-    resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   unique-filename@2.0.1:
     resolution: {integrity: sha512-ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==}
@@ -1562,7 +1565,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.18.11
+      '@types/node': 22.18.12
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -1571,40 +1574,40 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 24.8.1
+      '@types/node': 24.9.1
 
   '@types/http-cache-semantics@4.0.4': {}
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.18.11
+      '@types/node': 22.18.12
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.18.11':
+  '@types/node@22.18.12':
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.8.1':
+  '@types/node@24.9.1':
     dependencies:
-      undici-types: 7.14.0
+      undici-types: 7.16.0
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 24.8.1
+      '@types/node': 24.9.1
       xmlbuilder: 15.1.1
     optional: true
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.18.11
+      '@types/node': 22.18.12
 
   '@types/verror@1.10.11':
     optional: true
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.18.11
+      '@types/node': 22.18.12
     optional: true
 
   '@xmldom/xmldom@0.8.11': {}
@@ -1719,9 +1722,9 @@ snapshots:
 
   at-least-node@1.0.0: {}
 
-  atomically@2.0.3:
+  atomically@2.1.0:
     dependencies:
-      stubborn-fs: 1.2.5
+      stubborn-fs: 2.0.0
       when-exit: 2.1.4
 
   balanced-match@1.0.2: {}
@@ -1884,7 +1887,7 @@ snapshots:
     dependencies:
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
-      atomically: 2.0.3
+      atomically: 2.1.0
       debounce-fn: 6.0.0
       dot-prop: 10.1.0
       env-paths: 3.0.0
@@ -2064,10 +2067,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@38.3.0:
+  electron@38.4.0:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 22.18.11
+      '@types/node': 22.18.12
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -2833,7 +2836,11 @@ snapshots:
     dependencies:
       ansi-regex: 6.2.2
 
-  stubborn-fs@1.2.5: {}
+  stubborn-fs@2.0.0:
+    dependencies:
+      stubborn-utils: 1.0.1
+
+  stubborn-utils@1.0.1: {}
 
   sumchecker@3.0.1:
     dependencies:
@@ -2893,7 +2900,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  undici-types@7.14.0: {}
+  undici-types@7.16.0: {}
 
   unique-filename@2.0.1:
     dependencies:
