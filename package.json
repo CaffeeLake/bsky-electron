@@ -36,8 +36,8 @@
     "typescript": "^6.0.0"
   },
   "engines": {
-    "node": ">=22",
-    "pnpm": ">=10"
+    "node": ">=24",
+    "pnpm": ">=11"
   },
   "build": {
     "appId": "com.caffeelake.bsky-electron",
