@@ -1,6 +1,6 @@
 {
   "name": "bsky-electron",
-  "version": "v0.5.0",
+  "version": "v0.6.0",
   "description": "Bluesky Electron Client",
   "keywords": [
     "Bluesky"
